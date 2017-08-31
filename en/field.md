@@ -3,7 +3,7 @@
 
 Fields are used to generate a template output of the fill / edit form
 
-All possible fields are defined in `config / content.php` in the fields section
+All possible fields are defined in `config/platform.php` in the fields section
 Each field can be used in a type and if you need to create your own do not hesitate.
 The field consists of one class with the obligatory `create` method, which must raise the 'view' to display to the user
  
@@ -18,7 +18,7 @@ The field consists of one class with the obligatory `create` method, which must 
     'datetime' => Orchid\Fields\DateTimerField::class,
     'checkbox' => Orchid\Fields\CheckBoxField::class,
     'code'     => Orchid\Fields\CodeField::class,
-    'wysiwyg'  => \Orchid\Fields\SummernoteField::class,
+    'wysiwyg'  => Orchid\Fields\SummernoteField::class,
 ],
 ```
 

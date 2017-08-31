@@ -43,7 +43,7 @@ class MenuComposer
             'main'       => true,
             'active'     => 'dashboard.mymenu.*',
             'permission' => 'dashboard.mymenu',
-	    'badge'      => [
+	        'badge'      => [
                   'class' => 'bg-primary',
                   'data' => function(){
                       return 7;

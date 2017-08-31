@@ -36,3 +36,22 @@ To display in the desired position requires:
     <p>Welcome to my website...</p>
 </div>
 ```
+
+
+### Notice dashboard
+
+```php
+$user->notify(new \Orchid\Platform\Notifications\DashboardNotification([
+    'title' => 'Hello Word',
+    'message' => 'New post!',
+    'action' => 'https://google.com',
+    'type' => 'error',
+]));
+```
+
+Support type:
+
+- info (По умолчанию)
+- success
+- warning
+- error

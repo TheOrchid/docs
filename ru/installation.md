@@ -4,8 +4,6 @@
 ORCHID основана на [Laravel Framework](http://laravel.com), 
 поэтому перед тем, как поставить ORCHID, вы должны установить [`Laravel`](http://laravel.com).
 
-Вы можете увидеть установку на [`YouTube`](https://youtu.be/e9B5eVw7yss)
-
 
 #### Используя Composer
 
@@ -13,40 +11,6 @@ ORCHID основана на [Laravel Framework](http://laravel.com),
 ```php
 $ composer require orchid/cms
 ```
-
-####  Поставщики и фасады
-
-Добавить в `config/app.php`:
-
-Поставщик услуг в массив `Providers`:
-```php
-'providers' => [
-  // Laravel Framework Service Providers...
-  //...
-
-  // Package Service Providers
-  Orchid\Platform\Providers\FoundationServiceProvider::class,
-  Orchid\CMS\Providers\FoundationServiceProvider::class,
-
-  // ...
-
-  // Application Service Providers
-  // ...
-];
-```
-
-Алиасы фасадов к массиву `aliases`:
-```php
-'aliases' => [
-  // ...
-  'Dashboard' =>  Orchid\Platform\Facades\Dashboard::class,
-  'Alert' =>  Orchid\Alert\Facades\Alert::class,
-  'Active' => Watson\Active\Facades\Active::class,
-  'Setting' =>  Orchid\Setting\Facades\Setting::class,
-  'Image' => Intervention\Image\Facades\Image::class,
-];
-```
-
 
 #### Пользователь
 

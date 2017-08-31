@@ -34,3 +34,21 @@ Alert::warning('Message')
     <p>Welcome to my website...</p>
 </div>
 ```
+
+### Уведомления в панели администрирования
+
+```php
+$user->notify(new \Orchid\Platform\Notifications\DashboardNotification([
+    'title' => 'Hello Word',
+    'message' => 'New post!',
+    'action' => 'https://google.com',
+    'type' => 'error',
+]));
+```
+
+Поддерживаемые типы:
+
+- info (По умолчанию)
+- success
+- warning
+- error
