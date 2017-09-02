@@ -19,7 +19,7 @@ php artisan make:widget MySuperWidget
 ```php
 namespace App\Http\Widgets;
 
-use Orchid\Dashboard\Services\Widget\Widget;
+use Orchid\Widget\Service\Widget;
 
 class MySuperWidget extends Widget {
 

@@ -14,11 +14,11 @@ The basic form differs from realizing only by the fact that it is possible to `c
 
 An example of the basic form:
 ```php
-namespace Orchid\Foundation\Http\Forms\Systems\Roles;
+namespace Orchid\Platform\Http\Forms\Systems\Roles;
 
-use Orchid\Forms\FormGroup;
-use Orchid\Foundation\Core\Models\Role;
-use Orchid\Foundation\Events\Systems\RolesEvent;
+use Orchid\Platform\Forms\FormGroup;
+use Orchid\Platform\Core\Models\Role;
+use Orchid\Platform\Events\Systems\RolesEvent;
 
 class RoleFormGroup extends FormGroup
 {
@@ -60,12 +60,12 @@ Writing a form should not cause any problems since it looks like a regular contr
 
 Example:
 ```php
-namespace Orchid\Foundation\Http\Forms\Systems\Roles;
+namespace Orchid\Platform\Http\Forms\Systems\Roles;
 
-use Orchid\Forms\Form;
-use Orchid\Foundation\Core\Models\Role;
-use Orchid\Foundation\Facades\Alert;
-use Orchid\Foundation\Facades\Dashboard;
+use Orchid\Platform\Forms\Form;
+use Orchid\Platform\Core\Models\Role;
+use Alert;
+use Dashboard;
 
 class BaseRolesForm extends Form
 {

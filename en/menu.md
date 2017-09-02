@@ -18,7 +18,7 @@ Specify it in the composer provider.
 ```php
 namespace App\Http\Composers;
 
-use Orchid\Kernel\Dashboard;
+use Orchid\Platform\Kernel\Dashboard;
 
 class MenuComposer
 {

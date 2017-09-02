@@ -5,7 +5,7 @@
 Итак, теперь вы можете получить данные базы данных:
 
 ```php
-use Orchid\Core\Models\Post;
+use Orchid\CMS\Core\Models\Post;
 
 $posts = Post::all();
 ```

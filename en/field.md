@@ -10,15 +10,15 @@ The field consists of one class with the obligatory `create` method, which must 
 ```php
 // Available fields to form templates
 'fields' => [
-    'textarea' => Orchid\Fields\TextAreaField::class,
-    'input'    => Orchid\Fields\InputField::class,
-    'tags'     => Orchid\Fields\TagsField::class,
-    'robot'    => Orchid\Fields\RobotField::class,
-    'place'    => Orchid\Fields\PlaceField::class,
-    'datetime' => Orchid\Fields\DateTimerField::class,
-    'checkbox' => Orchid\Fields\CheckBoxField::class,
-    'code'     => Orchid\Fields\CodeField::class,
-    'wysiwyg'  => Orchid\Fields\SummernoteField::class,
+    'textarea' => Orchid\Platform\Fields\TextAreaField::class,
+    'input'    => Orchid\Platform\Fields\InputField::class,
+    'tags'     => Orchid\Platform\Fields\TagsField::class,
+    'robot'    => Orchid\Platform\Fields\RobotField::class,
+    'place'    => Orchid\Platform\Fields\PlaceField::class,
+    'datetime' => Orchid\Platform\Fields\DateTimerField::class,
+    'checkbox' => Orchid\Platform\Fields\CheckBoxField::class,
+    'code'     => Orchid\Platform\Fields\CodeField::class,
+    'wysiwyg'  => Orchid\Platform\Fields\SummernoteField::class,
 ],
 ```
 

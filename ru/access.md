@@ -54,7 +54,7 @@ php artisan make:admin nickname email@email.com secretpassword
 
 ```php
 use Illuminate\Support\ServiceProvider;
-use Orchid\Foundation\Kernel\Dashboard;
+use Orchid\Platform\Kernel\Dashboard;
 
 class PermissionServiceProvider extends ServiceProvider
 {

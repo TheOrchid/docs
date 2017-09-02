@@ -27,7 +27,7 @@ The type looks like this:
 ```php
 namespace DummyNamespace;
 
-use Orchid\Behaviors\Many;
+use Orchid\CMS\Behaviors\Many;
 
 class DummyClass extends Many
 {

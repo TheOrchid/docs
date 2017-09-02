@@ -55,7 +55,7 @@ An example of adding their own extensions using the provider
 
 ```php
 use Illuminate\Support\ServiceProvider;
-use Orchid\Foundation\Kernel\Dashboard;
+use Orchid\Platform\Kernel\Dashboard;
 
 class PermissionServiceProvider extends ServiceProvider
 {
