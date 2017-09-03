@@ -13,8 +13,29 @@
 
 Монитор использует функции системы и доступен только в операционных системах **Unix**
 
-----------
-<a href="/assets/img/screen/6.png" target="blank">
-    <img src="/assets/img/screen/6.png" class="img-responsive">
-</a>
 
+### Использование
+
+```php
+use Orchid\Monitor\Monitor;
+
+$monitor = new Monitor();
+
+// uname,webserver,phpVersion,cpu
+$monitor->info();
+
+// temperature,uptime
+$monitor->hardware();
+
+// oneMin,fiveMins,fifteenMins
+$monitor->loadAverage();
+
+// total,used,buffers,cache
+$monitor->memory();
+
+// down,up
+$monitor->network();
+
+// array
+$monitor->storage();
+```

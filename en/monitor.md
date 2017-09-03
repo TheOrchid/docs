@@ -12,7 +12,28 @@ Monitor will show you current information about your server:
 
 The monitor uses specific functions and is available only under  **Unix** operating systems
 
-----------
-<a href="/assets/img/screen/6.png" target="blank">
-    <img src="/assets/img/screen/6.png" class="img-responsive">
-</a>
+### Usage
+
+```php
+use Orchid\Monitor\Monitor;
+
+$monitor = new Monitor();
+
+// uname,webserver,phpVersion,cpu
+$monitor->info();
+
+// temperature,uptime
+$monitor->hardware();
+
+// oneMin,fiveMins,fifteenMins
+$monitor->loadAverage();
+
+// total,used,buffers,cache
+$monitor->memory();
+
+// down,up
+$monitor->network();
+
+// array
+$monitor->storage();
+```
