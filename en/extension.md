@@ -65,3 +65,28 @@ public function boot()
     View::composer('dashboard::layouts.dashboard', MenuComposer::class);
 }
 ```
+
+
+
+# Views
+
+In the course of the work, you may need to create your own `view`,
+that would provide a unified appearance will require inheritance:
+
+```php
+@extends('dashboard::layouts.dashboard')
+
+
+@section('title','title')
+@section('description', 'description')
+
+@section('content')
+
+    <div>
+        Content
+    </div>
+
+@stop
+
+```
+

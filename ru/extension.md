@@ -61,3 +61,26 @@ public function boot()
     View::composer('dashboard::layouts.dashboard', MenuComposer::class);
 }
 ```
+
+
+# Отображение
+
+В ходе работы вам может понадобится создавать свои собственные варианты отображения `(view)`,
+что бы обеспечить единый внешний вид потребуется наследование:
+
+```php
+@extends('dashboard::layouts.dashboard')
+
+
+@section('title','title')
+@section('description', 'description')
+
+@section('content')
+
+    <div>
+        Content
+    </div>
+
+@stop
+
+```
