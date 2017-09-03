@@ -10,13 +10,12 @@ Own behaviors must be registered in `config/cms.php` in the types section
 
 ```php
 //
-'pages' => [
+'single' => [
     //App\Core\Behaviors\Single\DemoPage::class,
 ],
 
-
 //
-'types' => [
+'many' => [
     //App\Core\Behaviors\Many\DemoPost::class,
 ],
 ```

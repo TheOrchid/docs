@@ -10,13 +10,12 @@
 
 ```php
 //
-'pages' => [
+'single' => [
     //App\Core\Behaviors\Single\DemoPage::class,
 ],
 
-
 //
-'types' => [
+'many' => [
     //App\Core\Behaviors\Many\DemoPost::class,
 ],
 ```

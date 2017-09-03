@@ -12,13 +12,14 @@
     <li><a href="/en/docs/behaviors">Behaviors</a></li>
     <li><a href="/en/docs/filters">Filters</a></li>
     <li><a href="/en/docs/tags">Tags</a></li>
+    <li><a href="/en/docs/menu">Menu</a></li>
 </ul>
 
 <h4 class="text-orchid font-thin">Control Panel</h4>
 <ul class="toc-links">
     <li><a href="/en/docs/form">Form</a></li>
     <li><a href="/en/docs/field">Field</a></li>
-    <li><a href="/en/docs/menu">Menu</a></li>
+    <li><a href="/en/docs/extension">Extension</a></li>
     <li><a href="/en/docs/settings">Settings</a></li>
 </ul>
 
