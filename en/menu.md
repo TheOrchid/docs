@@ -6,12 +6,11 @@ The system has a drag & drop menu that boosts localization.
 
 The number of menus is limited and is defined in the configuration file 'config / cms'
 ```php
-
-    'menu' => [
-        'header'  => 'Top Menu',
-        'sidebar' => 'Sidebar Menu',
-        'footer'  => 'Footer Menu',
-    ],
+'menu' => [
+    'header'  => 'Top Menu',
+    'sidebar' => 'Sidebar Menu',
+    'footer'  => 'Footer Menu',
+],
 ```
 
 

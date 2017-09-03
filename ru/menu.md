@@ -6,12 +6,11 @@
 
 Количество меню ограничено и определяется в файле конфигурации 'config/cms'
 ```php
-
-    'menu' => [
-        'header'  => 'Top Menu',
-        'sidebar' => 'Sidebar Menu',
-        'footer'  => 'Footer Menu',
-    ],
+'menu' => [
+    'header'  => 'Top Menu',
+    'sidebar' => 'Sidebar Menu',
+    'footer'  => 'Footer Menu',
+],
 ```
 
 
