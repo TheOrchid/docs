@@ -87,7 +87,7 @@ $item = Post::find(42);
 $item->attachment('image')->get();
 ```
 
-The uploaded images are automatically assigned to the permissions specified in the `config/content`.
+The uploaded images are automatically assigned to the permissions specified in the `config/cms`.
 To call them, you can use the previously specified key.
 If images for this key are not found, the original file will be returned.
 
