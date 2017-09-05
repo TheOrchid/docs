@@ -87,6 +87,42 @@ that would provide a unified appearance will require inheritance:
     </div>
 
 @stop
+```
 
+
+
+# Additional CSS and JS
+
+If you need to add styles and scripts globally, per page, then use:
+
+```php
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+use Orchid\Platform\Kernel\Dashboard;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot(Dashboard $dashboard)
+    {
+        $dashboard->registerResource('stylesheets','custom.css');
+        $dashboard->registerResource('scripts','custom.js');
+    }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        //
+    }
+}
 ```
 
