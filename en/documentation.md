@@ -8,8 +8,8 @@
 
 <h4 class="text-orchid font-thin">Content</h4>
 <ul class="toc-links">
-    <li><a href="/en/docs/post">Post</a></li>
     <li><a href="/en/docs/behaviors">Behaviors</a></li>
+    <li><a href="/en/docs/post">Post</a></li>
     <li><a href="/en/docs/filters">Filters</a></li>
     <li><a href="/en/docs/tags">Tags</a></li>
     <li><a href="/en/docs/menu">Menu</a></li>
