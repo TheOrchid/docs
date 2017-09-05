@@ -6,10 +6,10 @@
 <li><a href="/ru/docs/license/">Лицензия</a></li>
 </ul>
 
-<h4 class="text-orchid font-thin">Основаное</h4>
+<h4 class="text-orchid font-thin">Основное</h4>
 <ul class="toc-links">
-<li><a href="/ru/docs/post/">Записи</a></li>
 <li><a href="/ru/docs/behaviors/">Поведения</a></li>
+<li><a href="/ru/docs/post/">Записи</a></li>
 <li><a href="/ru/docs/filters/">Фильтры</a></li>
 <li><a href="/ru/docs/tags/">Теги</a></li>
 <li><a href="/ru/docs/menu/">Меню</a></li>
