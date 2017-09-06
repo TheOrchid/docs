@@ -3,7 +3,16 @@
 
 ORCHID based off [Laravel Framework](http://laravel.com), so before you put the ORCHID, you must install [`Laravel`](http://laravel.com).
 
-#### Via Composer
+
+
+#### Create-Project
+
+Install Laravel by issuing the Composer `create-project` command in your terminal:
+```php
+$ composer create-project --prefer-dist laravel/laravel orchid
+```
+
+#### Require package
 
 Going your project directory on shell and run this command: 
 ```php
